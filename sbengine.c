@@ -19,8 +19,8 @@ unsigned long slow_fib(unsigned long n) {
 }
 
 unsigned long fib(unsigned long n) {
-  /*return fast_fib(n);*/
-  return slow_fib(n);
+  return fast_fib(n);
+  /*return slow_fib(n);*/
 }
 
 unsigned long main(unsigned long argc, const char *argv[])
